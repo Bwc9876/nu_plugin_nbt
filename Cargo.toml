@@ -6,8 +6,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-flate2 = { version = "1.1.8", features = ["zlib"] }
-nu-plugin = "0.109.1"
-nu-protocol = { version = "0.109.1", features = ["plugin"] }
+flate2 = { version = "1.1.9", features = ["zlib"] }
+nu-plugin = "0.111.0"
+nu-protocol = { version = "0.111.0", features = ["plugin"] }
 serde = { version = "1.0.228", features = ["derive"] }
 simdnbt = "0.9.0"
