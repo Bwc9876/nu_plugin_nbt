@@ -35,7 +35,7 @@ If your file ends in .nbt, nushell will pick nu_plugin_nbt to open it.
 open data.nbt
 ```
 
-Otherwise, open it raw and pipe it to `from nt`.
+Otherwise, open it raw and pipe it to `from nbt`.
 
 ```nu
 open --raw data.dat | from nbt
